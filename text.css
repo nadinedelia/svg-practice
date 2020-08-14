@@ -19,7 +19,8 @@ body {
 
 
 #logo path:nth-child(1){
-    stroke-dasharray: 200px;
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
 }
 
 #logo path:nth-child(2){
