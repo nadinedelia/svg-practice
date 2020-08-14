@@ -35,12 +35,13 @@ a svg rect {
 a svg rect {
     stroke: #fff;
     stroke-width: 4;
-    transition: 0.5s;
+    transition: 1s;
     stroke-dasharray: 500,500;
     stroke-dashoffset: 0;
 }
 
 a:hover svg rect {
-    stroke-dasharray: 100,500;
-    stroke-dashoffset: 100;
+    stroke-dasharray: 100,400;
+    stroke-dashoffset: 220;
+    stroke: #00bcd4;
 }
