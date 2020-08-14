@@ -20,7 +20,6 @@ body {
 
 #logo path:nth-child(1){
     stroke-dasharray: 200px;
-    stroke-dasharray: 0px;
 }
 
 #logo path:nth-child(2){
