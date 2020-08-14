@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: #000000;
 }
 
 .container {
@@ -20,4 +21,10 @@ body {
 
 .container .icon {
     width: 200px;
+}
+
+.container .icon path {
+    fill: transparent;
+    stroke-width: 10;
+    stroke: #00d39b;
 }
