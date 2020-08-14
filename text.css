@@ -19,17 +19,21 @@ body {
 
 
 #logo path:nth-child(1){
-
+    stroke-dasharray: 845;
+    stroke-dashoffset: 845;
 }
 
 #logo path:nth-child(2){
-    
+    stroke-dasharray: 704;
+    stroke-dashoffset: 704;
 }
 
 #logo path:nth-child(3){
-    
+    stroke-dasharray: 704;
+    stroke-dashoffset: 704;
 }
 
 #logo path:nth-child(4){
-    
+    stroke-dasharray: 365;
+    stroke-dashoffset: 365;
 }
