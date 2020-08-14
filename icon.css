@@ -28,3 +28,33 @@ body {
     stroke-width: 10;
     stroke: #00d39b;
 }
+
+.container .icon.virus path {
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.virus:hover path {
+    animation: animate-virus 2s linear forwards
+}
+
+@keyframes animate-heart {
+    0%
+    {
+        stroke-dashoffset: 0;
+    }
+    40%
+    {
+        stroke-dashoffset: 1500;
+    }
+    80%
+    {
+        stroke-dashoffset: 3000;
+        fill: transparent;
+    }
+    100%
+    {
+        stroke-dashoffset: 3000;
+        fill: #00d39b;
+    }
+}
