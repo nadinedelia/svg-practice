@@ -28,19 +28,13 @@ body {
     stroke: #00d39b;
 }
 
-.container .icon.virus path {
-    stroke-width: 4;
-}
-
-.container .icon.distance path {
-    stroke-width: 10;
-}
 
 .container .icon.mask path {
     stroke-width: 10;
 }
 
 .container .icon.virus path {
+    stroke-width: 4;
     stroke-dasharray: 1500;
     stroke-dashoffset: 0;
 }
@@ -68,4 +62,26 @@ body {
         stroke-dashoffset: 3000;
         fill: #00d39b;
     }
+}
+
+
+.container .icon.distance path {
+    stroke-width: 10;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.distance:hover path {
+    animation: animate-virus 4s linear forwards
+}
+
+
+.container .icon.mask path {
+    stroke-width: 10;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.mask:hover path {
+    animation: animate-virus 3s linear forwards
 }
