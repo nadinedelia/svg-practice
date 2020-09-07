@@ -14,7 +14,7 @@ darkMode.addEventListener('click', () => {
     timeline.add({
         targets: ".sun",
         d: [
-            {value: moonPath}
+            {value: toggle ? sunPath : moonPath}
         ]
     })
     .add({
