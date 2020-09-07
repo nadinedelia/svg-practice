@@ -26,5 +26,7 @@ darkMode.addEventListener('click', () => {
     .add({
         targets: "section",
         backgroundColor: 'rgb(22,22,22)'
-    });
+    },
+    '-=700'
+    );
 });
