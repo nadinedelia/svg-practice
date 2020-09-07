@@ -22,5 +22,9 @@ darkMode.addEventListener('click', () => {
         rotate: 320
     },
     "-= 350"
-    );
+    )
+    .add({
+        targets: "section",
+        backgroundColor: 'rgb(22,22,22)'
+    });
 });
