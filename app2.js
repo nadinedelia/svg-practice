@@ -25,8 +25,13 @@ darkMode.addEventListener('click', () => {
     )
     .add({
         targets: "section",
-        backgroundColor: 'rgb(22,22,22)'
+        backgroundColor: toggle ? 'rgb(255,255,255)' : 'rgb(22,22,22)'
     },
     '-=700'
     );
+    if(!toggle){
+        toggle = true;
+    }else{
+        toggle = false;
+    }
 });
