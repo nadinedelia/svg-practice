@@ -29,9 +29,5 @@ darkMode.addEventListener('click', () => {
     },
     '-=700'
     );
-    if(!toggle){
-        toggle = true;
-    }else{
-        toggle = false;
-    }
+    toggle = !toggle;
 });
