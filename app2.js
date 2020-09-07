@@ -16,5 +16,10 @@ darkMode.addEventListener('click', () => {
         d: [
             {value: moonPath}
         ]
+    })
+    .add({
+        targets: '#darkMode',
+        rotate: 320
     });
+
 });
